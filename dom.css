@@ -1,0 +1,29 @@
+body{
+    background-color: pink;
+}
+#heading1{
+    background-color: aliceblue;
+}
+.heading{
+    background-color: aliceblue;
+}
+p{
+    background-color: aliceblue;
+}
+div{
+    background-color: aliceblue;
+}
+.box{
+    height:100px;
+    width:100px;
+    color:purple;
+    margin:50px;
+    text-align: center;
+    background-color:white;
+    
+
+}
+#b1{
+    color:aliceblue;
+    background-color: red;
+}
