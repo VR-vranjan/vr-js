@@ -37,11 +37,13 @@ console.log(document.body.style.background = "orange");
 let h3 = document.querySelector(".heading");
 console.log(h3.innerText);
 h3.innerText = h3.innerText + ".....Happy Learning......";
-//making blocks with div
+//making blocks with div and changing their text property
 let div = document.querySelectorAll(".box");
 div[0].innerText = "first!!";
 div[1].innerText = "second!!";
 div[2].innerText = "third!!";
+
+
 
 
 

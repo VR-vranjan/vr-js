@@ -1,0 +1,18 @@
+#box{
+    height:200px;
+    width:100px;
+    margin:50px;
+    color:aliceblue;
+    background-color: black;
+    text-align: center;
+
+}
+.parah{
+    color:rgb(248, 246, 244);
+    
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 25px;
+}
+.newclass{
+    background-color:darkgreen;
+}
