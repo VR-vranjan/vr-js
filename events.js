@@ -27,10 +27,14 @@ togglebtn.addEventListener("click", () => {
     if (currmode === "light") {
         currmode = "dark";
         document.querySelector("body").style.backgroundColor = "black";
+        document.querySelector("div").style.color = "white";
+       
     }
     else {
         currmode = "light";
         document.querySelector("body").style.backgroundColor = "white";
+        document.querySelector("div").style.color = "black";
+       
     }
     console.log(currmode);
 });
