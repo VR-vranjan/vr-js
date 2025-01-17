@@ -1,5 +1,5 @@
-const BASE_URL =
-"currency-api.pages.dev/gh/fawazahmed0/currency-api@1/latest/currencies";
+const URL =
+"https://api.currencyapi.com/v3/latest?apikey=cur_live_oor4fQDdInb5kovY3hKn8drbpCYqVnbGV6nPF3KG";
 
 const dropdowns = document.querySelectorAll(".drop select");
 const btn = document.querySelector("form button");
@@ -32,13 +32,12 @@ const updateExchangeRate = async () => {
     amtVal = 1;
     amount.value = "1";
   }
-  const URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}/${toCurr.value.toLowerCase()}.json`;
+  
   let response = await fetch(URL);
   let data = await response.json();
-  let rate = data[toCurr.value.toLowerCase()];
-
-  let finalAmount = amtVal * rate;
-  msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
+  console.log(data);
+  // let finalAmount = amtVal * rate;
+  // msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 };
 
 const updateFlag = (element) => {
